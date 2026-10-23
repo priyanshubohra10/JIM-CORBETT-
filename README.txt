@@ -41,3 +41,6 @@ A domain purchase and DNS setup are separate from this starter website.
 
 IMPORTANT
 This is a static website starter, not a live booking/permit inventory system. The form opens WhatsApp and does not process payments or confirm bookings.
+
+
+Current version focuses on Gypsy safari enquiries only. Visitors can either message directly through the WhatsApp button or submit the form to prepare a booking request message. The form does not take payment or confirm permits/availability. Replace sample images and verify all safari details before advertising.

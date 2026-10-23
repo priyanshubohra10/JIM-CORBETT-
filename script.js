@@ -30,7 +30,8 @@ document.getElementById("enquiryForm").addEventListener("submit", (event) => {
   const name = form.get("guestName").trim();
   const date = form.get("visitDate");
   const guests = form.get("guests");
-  const interest = form.get("interest");
+  const zone = form.get("zone");
+  const requestType = form.get("requestType");
   const message = form.get("message").trim();
 
   const text = [
@@ -39,7 +40,8 @@ document.getElementById("enquiryForm").addEventListener("submit", (event) => {
     `Name: ${name}`,
     `Preferred date: ${date}`,
     `Travellers: ${guests}`,
-    `Interested in: ${interest}`,
+    `Preferred safari zone: ${zone}`,
+    `Enquiry type: ${requestType}`,
     message ? `Additional details: ${message}` : ""
   ].filter(Boolean).join("\n");
 
