@@ -59,16 +59,70 @@
     </section>
 
     <section class="zones section-pad" id="zones">
-      <div class="section-heading"><div><div class="section-kicker">KNOW BEFORE YOU GO</div><h2>Explore the <em>Corbett region.</em></h2></div><p>Different areas have different access rules and operating arrangements. Ask us about your preferred dates and the currently permitted options.</p></div>
-      <div class="zone-list">
-        <div class="zone-item"><span class="zone-index">01</span><div><h3>Bijrani</h3><p>Popular forest safari area</p></div><span class="zone-arrow">↗</span></div>
-        <div class="zone-item"><span class="zone-index">02</span><div><h3>Dhikala</h3><p>Forest and grassland landscapes</p></div><span class="zone-arrow">↗</span></div>
-        <div class="zone-item"><span class="zone-index">03</span><div><h3>Jhirna</h3><p>Safari zone information</p></div><span class="zone-arrow">↗</span></div>
-        <div class="zone-item"><span class="zone-index">04</span><div><h3>Dhela</h3><p>Plan around current access rules</p></div><span class="zone-arrow">↗</span></div>
-        <div class="zone-item"><span class="zone-index">05</span><div><h3>Garjia & other options</h3><p>Ask about current availability</p></div><span class="zone-arrow">↗</span></div>
+  <div class="section-heading">
+    <div>
+      <div class="section-kicker">KNOW BEFORE YOU GO</div>
+      <h2>Explore the <em>Corbett region.</em></h2>
+    </div>
+    <p>
+      Discover the different safari zones of Jim Corbett.
+      Choose your preferred area and contact us for safari
+      details, dates and availability.
+    </p>
+  </div>
+
+  <div class="zone-list">
+    <div class="zone-item">
+      <span class="zone-index">01</span>
+      <div>
+        <h3>Bijrani</h3>
+        <p>Beautiful forest trails and open grassland landscapes.</p>
       </div>
-      <p class="fine-print">Zone access, safari timings, permits and availability can change. All details must be verified with the official park/booking authority before a booking is confirmed.</p>
-    </section>
+      <span class="zone-arrow">↗</span>
+    </div>
+
+    <div class="zone-item">
+      <span class="zone-index">02</span>
+      <div>
+        <h3>Dhikala</h3>
+        <p>Known for its scenic grasslands and river landscapes.</p>
+      </div>
+      <span class="zone-arrow">↗</span>
+    </div>
+
+    <div class="zone-item">
+      <span class="zone-index">03</span>
+      <div>
+        <h3>Jhirna</h3>
+        <p>Explore the forest landscape and natural surroundings.</p>
+      </div>
+      <span class="zone-arrow">↗</span>
+    </div>
+
+    <div class="zone-item">
+      <span class="zone-index">04</span>
+      <div>
+        <h3>Dhela</h3>
+        <p>Enjoy a memorable safari experience in the forest.</p>
+      </div>
+      <span class="zone-arrow">↗</span>
+    </div>
+
+    <div class="zone-item">
+      <span class="zone-index">05</span>
+      <div>
+        <h3>Garjia & Other Options</h3>
+        <p>Contact us to explore currently available safari options.</p>
+      </div>
+      <span class="zone-arrow">↗</span>
+    </div>
+  </div>
+
+  <p class="fine-print">
+    Safari zones, timings, permits and availability are subject
+    to official park rules. Please confirm current details before booking.
+  </p>
+</section>
 
     <section class="feature-banner" id="booking">
       <div class="feature-image"></div><div class="feature-content"><div class="section-kicker">SIMPLE & DIRECT</div><h2>Your safari plan,<br><em>without the hassle.</em></h2><p>Choose your preferred date and zone in the enquiry form, or contact us on WhatsApp. We’ll discuss current availability and next steps directly with you.</p><a class="button button-light" href="#contact">Send a safari enquiry <span>↗</span></a></div>
@@ -91,6 +145,16 @@
       <form class="enquiry-form" id="enquiryForm">
         <div class="form-top"><span>GYPSY SAFARI ENQUIRY</span><span>01 — 04</span></div>
         <label for="guestName">Your name</label><input id="guestName" name="guestName" placeholder="Enter your name" required>
+        <label for="guestPhone">Your mobile number</label>
+<input
+  id="guestPhone"
+  name="guestPhone"
+  type="tel"
+  placeholder="Enter your mobile number"
+  pattern="[0-9]{10}"
+  maxlength="10"
+  required
+>
         <div class="form-row"><div><label for="visitDate">Preferred date</label><input id="visitDate" name="visitDate" type="date" required></div><div><label for="guests">Travellers</label><select id="guests" name="guests"><option>1–2 people</option><option>3–4 people</option><option>5–6 people</option><option>7+ people</option></select></div></div>
         <label for="zone">Preferred safari zone</label><select id="zone" name="zone"><option>Not sure yet / please advise</option><option>Bijrani</option><option>Dhikala</option><option>Jhirna</option><option>Dhela</option><option>Garjia / other options</option></select>
         <label for="requestType">Enquiry type</label><select id="requestType" name="requestType"><option>Check availability / booking request</option><option>Safari details and charges</option><option>General question</option></select>

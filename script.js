@@ -28,6 +28,7 @@ document.getElementById("enquiryForm").addEventListener("submit", (event) => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
   const name = form.get("guestName").trim();
+  const phone = form.get("guestPhone").trim();
   const date = form.get("visitDate");
   const guests = form.get("guests");
   const zone = form.get("zone");
@@ -38,6 +39,7 @@ document.getElementById("enquiryForm").addEventListener("submit", (event) => {
     "Hello Corbett Wild Trails! I'd like to enquire about a trip.",
     "",
     `Name: ${name}`,
+    `Mobile number: ${phone}`,
     `Preferred date: ${date}`,
     `Travellers: ${guests}`,
     `Preferred safari zone: ${zone}`,
