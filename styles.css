@@ -36,3 +36,14 @@
 .zone-item:hover .zone-arrow {
   transform: translateX(6px);
 }
+.site-header {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+}
+
+.brand,
+.brand-logo,
+.brand-copy {
+  position: static !important;
+}
